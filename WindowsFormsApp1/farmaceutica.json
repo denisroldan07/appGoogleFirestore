@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "farmaceutica-c35e1",
+  "private_key_id": "0141017876d2cd83a7976522bdd5ffd2802d3534",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDRU3Vuoo5H3xPA\n40bKloFXUWwQa6oE2zIrzlPQIOKCO7ljDFgZBVH+13iz7kdKsjjXBct54Ln2scB1\nELiv+B4XczEHcVAMvmMDweP0JlvWDPnHW7SWjJUGpNKUnVQOZ5CzoIyG9DARYNY3\ntynRajIQehIEzpeDJv1wIRim+IDHbKG22B4d2Suw2zRaZaU59XnjGL+mI8V+wknX\nAsU4xj0MF7/LGPFJZL37yqxuAXlwB//c5SrH8plDL/h6ZjEU0wg+P7DuzGDLh8jM\nXAL3aEU/bswtYJYLGMvKuAGQY1S8+EdYJ9HLeIKL9U6EN/8kXVIFg2yqsirUd5t7\n5LNfJy51AgMBAAECggEAFIMPINZBBv3vG5mp2DRDXGEYK8vBD1TDZ9OCFwUB7S0Z\nD4GoKFuDG2vV4hvZVJJ+S2O/+qNw1aG5cD9BOc0gdb/N8CLEa1tErJuVUNlpamI/\nH6/21EHWYJ5KHFIGaJrxbQiwfJD1HN7WXwNNz72ORlsP5PSxmCJ79z7nAYWcaO4o\nvkl9vk7ZvEKF46UkyUv8MKwJPL7fSr/qTMvGIqtsWw1FcudiYJngXkxNdboqDzjc\n2uRjSeie7PjPZYaWeLgjLaymoheqNu4druTj9sFb3yUEK/QUlS5+ai34rmOjSqI2\nQ7KiOfm0iiTtOFch9tleKA7f4m21n18mrQePciYiyQKBgQD2MigTapGvrTtbseHa\nScKOSi/J6BU/+Ixcf9ICn/gmG7ROqnNumpmm9fXxFiJ73Cw0sx4kWywApOAKztZA\nZsaJ2+VWpqq9JC5YxQnBGStxHpJjC+41GkM3uWpNZygiAT9KAwYEFEGtQHIB2K/x\nKuL1a3f3tZzWywcXQJEGIIy/WwKBgQDZqW6V6Ok/I5WORGrmqlQG6seO8ctkDe+R\nJif0AmE5CvO51KJuCMs18xGShbp8DCDVTFQ2aHljYLHRMdJFsgLFbXEP8pLWfsF0\nnMja9L9Qo+Ugx9MlBCovBym2idirbXOXmxh6iYiw8ilQckYwVk47sqOThSoOEvnN\nfiC2gRyCbwKBgGakNJcbuA9w/q1U9R9n3wgpn9DixHE+M26hD7JudSuWI08kuyli\npSq5osbXfpr7CScTgj6QEEFYe9ulrid9ccqp9exxYf+nJPd3doCd+MGZiFho8fAL\nufhyggIxPscmk/dMWWa790G++4kPiRLX2XWOT57jhbb7QEKOdagDTAq/AoGBAK9L\n6nknTHqCQReD+IhvEx9DBJcWGxUouBExJqo5JG3ZaTL3kh2GTYrUiQl1VBxFdEf0\nojnzaBfmLy9orY1d8Sdpnc4XMbU3/rvY7VaSGGZsqML+zAka0pJvdWPCntJpYtft\nnAhMLd88GJPmhKq3R2iC1YSgkZ8mHzMlalkxoHFXAoGAXw2RlQZH1zURRXUV+Lex\nPn+JF154ecOjGje45kJsun1MEPD2Mf4BKTNUXzusBb3lys3T9NVDhJgGUatheLED\nFpL/oXNmRqdkCrpTuQJ0YQwH0LIiZrRI2jC7EJqpC+HM2xn0KKZjvHhGtZj3bgUy\nCCuIDnYT2oG4gbPDyb5iYKE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-8788t@farmaceutica-c35e1.iam.gserviceaccount.com",
+  "client_id": "118119614500460760403",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8788t%40farmaceutica-c35e1.iam.gserviceaccount.com"
+}
