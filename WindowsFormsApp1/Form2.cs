@@ -28,6 +28,8 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             addNewData();
+            Form2.ActiveForm.Controls.Clear();
+            InitializeComponent();
         }
 
 
@@ -40,13 +42,13 @@ namespace WindowsFormsApp1
             Dictionary<string, object> data1 = new Dictionary<string, object>()
             {
                 // se agrega nuevo diccionario con los datos del nuevo afiliado
-                 {"Nombre y apellido" , textBoxName.Text},
-                 {"N° afiliado" , textBoxID.Text},
-                 {"Telefono" , textBoxPhoneNumber.Text},
-                 {"Mail" , textBoxEmail.Text },
-                 {"Ocupacion actual" , textBoxJob.Text },
-                 {"Cursos" , richTextBoxCursos.Text },
-                 {"Cuota" , richTextBoxCuotas.Text }
+                 {"1 - NOMBRE Y APELLIDO: " , textBoxName.Text},
+                 {"2 - N° AFILIADO: " , textBoxID.Text},
+                 {"3 - TELEFONO: " , textBoxPhoneNumber.Text},
+                 {"4 - MAIL: " , textBoxEmail.Text },
+                 {"5 - OCUPACION ACTUAL: " , textBoxJob.Text },
+                 {"6 - CURSOS: " , richTextBoxCursos.Text },
+                 {"7 - CUOTAS: " , richTextBoxCuotas.Text }
             };
 
 

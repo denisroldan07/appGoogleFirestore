@@ -26,12 +26,13 @@ namespace WindowsFormsApp1
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            textBoxName.Text = (string)this.personaForm3["Nombre y apellido"];
-            textBoxID.Text = (string)this.personaForm3["N° afiliado"];
-            textBoxPhoneNumber.Text =(string)this.personaForm3["Telefono"];
-            textBoxJob.Text = (string)this.personaForm3["Mail"];
-            richTextBoxCursos.Text = (string)this.personaForm3["Cursos"];
-            richTextBoxCuotas.Text = (string)this.personaForm3["Cuota"];
+            textBoxName.Text = (string)this.personaForm3["1 - NOMBRE Y APELLIDO: "];
+            textBoxID.Text = (string)this.personaForm3["2 - N° AFILIADO: "];
+            textBoxPhoneNumber.Text =(string)this.personaForm3["3 - TELEFONO: "];
+            textBoxEmail.Text = (string)this.personaForm3["4 - MAIL: "];
+            textBoxJob.Text = (string)this.personaForm3["5 - OCUPACION ACTUAL: "];
+            richTextBoxCursos.Text = (string)this.personaForm3["6 - CURSOS: "];
+            richTextBoxCuotas.Text = (string)this.personaForm3["7 - CUOTAS: "];
         
         }
 
@@ -41,13 +42,13 @@ namespace WindowsFormsApp1
             
             Dictionary<string, object> data = new Dictionary<string, object>()
              {
-                 {"Nombre y apellido" , textBoxName.Text},
-                 {"N° afiliado" , textBoxID.Text},
-                 {"Telefono" , textBoxPhoneNumber.Text},
-                 {"Mail" , textBoxEmail.Text},
-                 {"Ocupacion actual" , textBoxJob.Text },
-                 {"Cursos" , richTextBoxCursos.Text },
-                 {"Cuota" , richTextBoxCuotas.Text }
+                 {"1 - NOMBRE Y APELLIDO: " , textBoxName.Text},
+                 {"2 - N° AFILIADO: " , textBoxID.Text},
+                 {"3 - TELEFONO: " , textBoxPhoneNumber.Text},
+                 {"4 - MAIL: " , textBoxEmail.Text },
+                 {"5 - OCUPACION ACTUAL: " , textBoxJob.Text },
+                 {"6 - CURSOS: " , richTextBoxCursos.Text },
+                 {"7 - CUOTAS: " , richTextBoxCuotas.Text }
              };
             
         }
@@ -57,13 +58,13 @@ namespace WindowsFormsApp1
             Dictionary<string, object> data1 = new Dictionary<string, object>()
             {
                 // se agrega nuevo diccionario con los datos del nuevo afiliado
-                 {"Nombre y apellido" , textBoxName.Text},
-                 {"N° afiliado" , textBoxID.Text},
-                 {"Telefono" , textBoxPhoneNumber.Text},
-                 {"Mail" , textBoxEmail.Text },
-                 {"Ocupacion actual" , textBoxJob.Text },
-                 {"Cursos" , richTextBoxCursos.Text },
-                 {"Cuota" , richTextBoxCuotas.Text }
+                 {"1 - NOMBRE Y APELLIDO: " , textBoxName.Text},
+                 {"2 - N° AFILIADO: " , textBoxID.Text},
+                 {"3 - TELEFONO: " , textBoxPhoneNumber.Text},
+                 {"4 - MAIL: " , textBoxEmail.Text },
+                 {"5 - OCUPACION ACTUAL: " , textBoxJob.Text },
+                 {"6 - CURSOS: " , richTextBoxCursos.Text },
+                 {"7 - CUOTAS: " , richTextBoxCuotas.Text }
             };
 
             Form1.addNewData(data1 , this.dni );
@@ -83,5 +84,8 @@ namespace WindowsFormsApp1
                 
             }
         }
+
+
+
     }
 }

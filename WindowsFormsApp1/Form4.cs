@@ -29,6 +29,6 @@ namespace WindowsFormsApp1
                 richTextBox1.Text += string.Format("{0}: {1}\n", item.Key, item.Value);
             }
         }
-    
+
     }
 }

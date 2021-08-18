@@ -6,8 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Forms;
 using Google.Cloud.Firestore;
+using MessageBox = System.Windows.MessageBox;
 
 
 
@@ -42,23 +44,35 @@ namespace WindowsFormsApp1
             
             agregar.Show();
         }
-        
-        private void btnEliminar_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            if(dni == null)
+            {
+                MessageBoxResult confirmResult = MessageBox.Show("INGRESE UN DNI Y VUELVA A INTENTAR", "PARA PODER CONTINUAR INGRESE UN DNI VALIDO", MessageBoxButton.OK);
+
+            } else
+            {
+
             this.edit = true;
             GetAllData_Of_A_Document();
             
+            }
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            this.edit = false;
-            GetAllData_Of_A_Document();
+            if (dni == null)
+            {
+                MessageBoxResult confirmResult = MessageBox.Show("INGRESE UN DNI Y VUELVA A INTENTAR", "PARA PODER CONTINUAR INGRESE UN DNI VALIDO", MessageBoxButton.OK);
+
+            } else 
+            { 
+            
+                this.edit = false;
+                GetAllData_Of_A_Document();
+            
+            }
         }
 
         // agregar informacion
@@ -69,9 +83,9 @@ namespace WindowsFormsApp1
             DocumentReference docs = database.Collection("farmaceuticos").Document(dni);
 
             docs.SetAsync(data);
-            MessageBox.Show("data added succesfully");
+            MessageBox.Show("DATOS CARGADOS SATISFACTORIAMENTE");
         }
-        // termina agregar informacion
+        // termina agregar informacion */ 
 
         async void GetAllData_Of_A_Document() 
         {
@@ -100,7 +114,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Datos incorrectos");
+                MessageBox.Show("DNI INVALIDO");
             }
             
         }

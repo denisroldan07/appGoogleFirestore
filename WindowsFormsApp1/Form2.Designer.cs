@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(356, 388);
+            this.button1.Location = new System.Drawing.Point(219, 443);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 50);
             this.button1.TabIndex = 0;
@@ -132,7 +132,7 @@ namespace WindowsFormsApp1
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(475, 198);
+            this.label8.Location = new System.Drawing.Point(476, 279);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 20);
             this.label8.TabIndex = 8;
@@ -182,17 +182,17 @@ namespace WindowsFormsApp1
             // 
             // richTextBoxCursos
             // 
-            this.richTextBoxCursos.Location = new System.Drawing.Point(541, 13);
+            this.richTextBoxCursos.Location = new System.Drawing.Point(553, 15);
             this.richTextBoxCursos.Name = "richTextBoxCursos";
-            this.richTextBoxCursos.Size = new System.Drawing.Size(247, 155);
+            this.richTextBoxCursos.Size = new System.Drawing.Size(699, 258);
             this.richTextBoxCursos.TabIndex = 15;
             this.richTextBoxCursos.Text = "";
             // 
             // richTextBoxCuotas
             // 
-            this.richTextBoxCuotas.Location = new System.Drawing.Point(541, 198);
+            this.richTextBoxCuotas.Location = new System.Drawing.Point(553, 279);
             this.richTextBoxCuotas.Name = "richTextBoxCuotas";
-            this.richTextBoxCuotas.Size = new System.Drawing.Size(247, 155);
+            this.richTextBoxCuotas.Size = new System.Drawing.Size(699, 284);
             this.richTextBoxCuotas.TabIndex = 16;
             this.richTextBoxCuotas.Text = "";
             // 
@@ -200,7 +200,7 @@ namespace WindowsFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1264, 568);
             this.Controls.Add(this.richTextBoxCuotas);
             this.Controls.Add(this.richTextBoxCursos);
             this.Controls.Add(this.textBoxJob);

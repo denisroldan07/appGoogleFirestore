@@ -97,6 +97,7 @@ namespace WindowsFormsApp1
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(187, 20);
             this.textBoxName.TabIndex = 27;
+           
             // 
             // label8
             // 
